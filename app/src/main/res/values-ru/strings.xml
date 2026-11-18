@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Universal Speaker Controller</string>
+    <string name="status_ready">Готов к подключению</string>
+    <string name="scan">Найти колонки</string>
+    <string name="paired_devices">Сопряжённые устройства</string>
+    <string name="devices_title">Доступные устройства</string>
+    <string name="pair_device">Сопрячь выбранное устройство</string>
+    <string name="disconnect">Отключить / управление соединением</string>
+    <string name="bluetooth_settings">Настройки Bluetooth</string>
+    <string name="sound_title">Управление звуком</string>
+    <string name="volume_up">Громкость +</string>
+    <string name="volume_down">Громкость -</string>
+    <string name="selected_device">Выбрано: %1$s</string>
+    <string name="permission_denied">Нет разрешения Bluetooth</string>
+    <string name="bluetooth_unavailable">Bluetooth недоступен</string>
+    <string name="devices_found">Найдено устройств: %1$d</string>
+    <string name="scanning">Идёт поиск...</string>
+    <string name="scan_failed">Не удалось начать поиск</string>
+    <string name="paired_count">Сопряжённых устройств: %1$d</string>
+    <string name="paired_label">Сопряжено</string>
+    <string name="not_paired_label">Не сопряжено</string>
+    <string name="select_device">Сначала выбери устройство</string>
+    <string name="already_paired">Устройство уже сопряжено</string>
+    <string name="pairing_started">Запрос сопряжения отправлен</string>
+    <string name="pairing_failed">Не удалось начать сопряжение</string>
+</resources>
