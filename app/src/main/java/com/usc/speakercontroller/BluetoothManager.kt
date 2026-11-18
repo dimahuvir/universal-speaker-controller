@@ -113,7 +113,16 @@ class BluetoothController(private val context: Context) {
             BluetoothDevice.ACTION_FOUND
         )
 
-        context.registerReceiver(receiver, filter)
+        if (Build.VERSION.SDK_INT >= 33) {
+    context.registerReceiver(
+        receiver,
+        filter,
+        Context.RECEIVER_EXPORTED
+    )
+} else {
+    @Suppress("DEPRECATION")
+    context.registerReceiver(receiver, filter)
+        }
 
         return receiver
     }
