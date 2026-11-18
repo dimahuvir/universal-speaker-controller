@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Universal Speaker Controller</string>
+    <string name="status_ready">Ready to connect</string>
+    <string name="scan">Scan for speakers</string>
+    <string name="paired_devices">Paired devices</string>
+    <string name="devices_title">Available devices</string>
+    <string name="pair_device">Pair selected device</string>
+    <string name="disconnect">Disconnect / manage connection</string>
+    <string name="bluetooth_settings">Bluetooth settings</string>
+    <string name="sound_title">Sound control</string>
+    <string name="volume_up">Volume +</string>
+    <string name="volume_down">Volume -</string>
+    <string name="selected_device">Selected: %1$s</string>
+    <string name="permission_denied">Bluetooth permission denied</string>
+    <string name="bluetooth_unavailable">Bluetooth unavailable</string>
+    <string name="devices_found">Devices found: %1$d</string>
+    <string name="scanning">Scanning...</string>
+    <string name="scan_failed">Could not start scanning</string>
+    <string name="paired_count">Paired devices: %1$d</string>
+    <string name="paired_label">Paired</string>
+    <string name="not_paired_label">Not paired</string>
+    <string name="select_device">Select a device first</string>
+    <string name="already_paired">Device is already paired</string>
+    <string name="pairing_started">Pairing request started</string>
+    <string name="pairing_failed">Pairing request failed</string>
+</resources>
